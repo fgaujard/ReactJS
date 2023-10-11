@@ -1,0 +1,19 @@
+figure {
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(158, 158, 255);
+    color: rgb(48, 48, 48);
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    border-radius: 20px;
+}
+div figcaption {
+    width: 6em;
+    line-height: 2em;
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 1em;
+}
