@@ -28,19 +28,18 @@ const pokemonList = [
     },
   ];
 
-
-
 function App() {
-
+  
   const [pokemonIndex, SetPokemonIndex] = useState(0);
-
+  
   return (
     <div id="frame">
       <PokemonCard pokemon={pokemonList[pokemonIndex]}/>
       <br/>
-      <NavBar pokemonIndex={pokemonIndex}
-				      SetPokemonIndex={SetPokemonIndex}
-				      pokemonLength={pokemonList.length - 1}/>
+      <NavBar
+        SetPokemonIndex={SetPokemonIndex}
+        pokemonList={pokemonList}
+      />
     </div>
   )
 }
