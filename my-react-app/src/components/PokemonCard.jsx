@@ -1,5 +1,5 @@
-import styles from "./Pokemon.css";
 import PropTypes from "prop-types";
+import './style.scss';
 
 PokemonCard.propTypes = {
   pokemon : PropTypes.shape({
